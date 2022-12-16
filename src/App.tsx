@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import { Button } from './components/Button'
+import { ThemeProvider } from 'styled-components'
+import { BrowserRouter } from 'react-router-dom'
+import { Router } from './Router'
+import { GlobalStyle } from './styles/global'
+import { defaultTheme } from './styles/themes/default'
 
 export function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <Button variant='primary' />
-      <Button variant='secondary' />
-      <Button variant='sucess' />
-      <Button variant='danger' />
-      <Button />
-    </>
+    <ThemeProvider theme={defaultTheme}>
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
+      <GlobalStyle />
+    </ThemeProvider>
   )
 }
