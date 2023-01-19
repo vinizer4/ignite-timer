@@ -1,47 +1,25 @@
-<h1 align="center">
-Ignite Timer
-</h1>
 
-## :page_facing_up: Descrição
+# IgniteTimer
+Projeto de um temporizador com página de histórico, desenvolvida em ReactJS e TypeScript.
 
-Development of a pomodoro using styled-components, react-hook-form, zod, react-router-dom, context API, hooks, reducers, immutability with immer, in addition to applying TypeScript to add static typing.
+A aplicação possui 2 telas, sendo:
+- A tela inicial, onde o usuário pode inserir uma tarefa a ser realizada (ex: treinar) e o tempo de duração da atividade do timer.
+- O histórico de atividades realizadas, exibindo o tempo de duração, a data de criação e o status da atividade (Em Progresso, Concluída ou Interrompida).
 
-## 🛠 Technologies
+## Tecnologias utilizadas neste projeto:
 
-This project was developed with the following technologies
+- Vite
+- TypeScript
+- Context API
+- Styled Components
+- Hook useReducer
+- Local Storage
+- React Router Dom
+- React Hook Form
+- Validação de formulário com Zod
 
-- [React.js](https://pt-br.reactjs.org/)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Vite](https://vitejs.dev/)
-- [Styled-Components](https://styled-components.com/)
-- [Immer](https://immerjs.github.io/immer/)
-- [Zod](https://zod.dev/)
+Acesse o projeto através do link: https://ignite-timer-sable.vercel.app/
 
-## :closed_book: Executar
+![igniteTimer2](https://user-images.githubusercontent.com/100737570/206002668-779cdb03-06db-400b-9fa3-c3d6a171969c.jpg)
+![igniteTimer](https://user-images.githubusercontent.com/100737570/206002688-2cd6d2a1-e3fa-4489-bdec-dace1a27e38d.jpg)
 
-### Clone this repository.
-
-```bash
-## Ignite Timer
-
-# Enter the folder
-$ cd ignite-timer
-
-# Install the dependencies
-$ npm install
-
-# Run application
-$ npm run dev
-
-```
-
-<p align="center">
-<img alt="Ignite Timer demo video" src="https://user-images.githubusercontent.com/12499627/184167701-a52f1661-ba90-418e-901f-ead0358b7a8b.gif" />
-</p>
-
----
-
-## :man: Autor
-
-✔ By Vinicius Teixeira
